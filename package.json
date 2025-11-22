@@ -1,0 +1,28 @@
+{
+  "name": "discord-loot-bot",
+  "version": "1.0.0",
+  "description": "Discord Loot Bot powered by Node.js, Express (for keep-alive), and the Gemini API for dynamic loot reports.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "nodejs",
+    "express",
+    "gemini",
+    "ai",
+    "loot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  }
+}
