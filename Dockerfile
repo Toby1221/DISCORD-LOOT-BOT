@@ -12,7 +12,7 @@ RUN npm install --production
 COPY . .
 
 # Cloud Run injects the PORT environment variable
-ENV PORT=8080
+ENV PORT=8888
 
 # The command to run your bot
 CMD ["npm", "start"] 
